@@ -62,8 +62,7 @@ if [ "$found" = 0 ]; then
   done
   echo "六个都装好了。"
   echo
-  echo "如果你的 agent 用别的目录，手动把 skills/ 里六个文件夹拷过去；"
-  echo "或者用单文件版：$HERE/短片六工序.md"
+  echo "如果你的 agent 用别的目录，手动把 skills/ 里六个文件夹拷过去。"
 fi
 
 [ "$DRY" = 1 ] || echo
